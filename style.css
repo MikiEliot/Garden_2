@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'Megan_June';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/Megan_June.otf');
+}
+*{
+    text-decoration: none;
+    max-width: 1134px;
+
+}
+
+header{
+    max-height: 100px;
+    width: auto;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    font-family: 'Megan_June';
+    font-size: 30px;
+    margin: auto;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    margin-left:20px;
+    margin-top: 25px;
+    border-bottom: 15px solid rgb(147, 55, 70);
+
+}
+#top_nav .menuprincipal{
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+
+#top_nav .menuprincipal li{
+    margin: 10px;
+}
+#top_nav .menuprincipal li a{
+    text-decoration: underline 15px solid rgb(23, 206, 40);
+}
+
+.nivo-caption{
+    background: transparent;
+    position: absolute;
+    top:30%;
+    left:40%
+   
+}
+
+.nivo-caption h3{
+    font-family: 'Megan_June';
+    font-weight: 100;
+    font-size: 60px;
+    letter-spacing: 25px;
+    margin-bottom: 0;
+    
+}
+
+.nivo-caption p{
+    margin-left: 0px;
+    font-family: 'Megan_June';
+    font-size:30px
+}
+
+.nivo-caption .pro{
+    color: green;
+    border-bottom: 15px solid white;
+    padding-bottom: 5px;
+
+
+}
+.slider-wraper{
+    background-color: rgb(222, 220, 221);
+}
+.theme-default .nivo-controlNav a {
+    display: inline-block;
+    background: white;
+    width: 22px;
+    height: 14px;
+    text-indent: -9999px;
+    margin: 0 4px;
+}
+.theme-default .nivo-controlNav .active {
+    background: rgb(147, 55, 70);
+
+}
+
+article{
+    
+    display:flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(196, 192, 192);
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+article div{
+    background-color: white;
+    width: 30%;
+    border: 1px solid black;
+}
+.slike{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+article div hr{
+    width:40px;
+    height:5px;
+    background-color: brown;
+}
+article div h2{
+    text-align: center;
+}
+article div p{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.arbre{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Megan_June';
+}
+
+.arbre h1{
+    font-size: 105px;
+    font-weight: 100;
+    padding-left: 15px;
+    margin-bottom: 0;
+    
+}
+
+.arbre ul {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+.list2 {
+    margin-left: 120px;
+}
+
+.arbre hr{
+    width:40px;
+    height:5px;
+    background-color: rgb(147, 55, 68);
+    margin-top:40px;
+    margin-left: 0;
+}
+.drvo {
+   margin-bottom: -5px;
+}
+.lorem-arbre{
+    font-size: 30px;
+    margin-left: 80px;
+    flex-wrap: wrap;
+}
+
+.lorem-arbre ul li{
+    list-style-image:url("images-garden/feuille-picto.jpg") ;
+}
+
+.lorem-arbre p{
+    margin-top: 120x;
+}
+
+.lorem-arbre p a{
+    background-color: rgb(23, 206, 40);
+    border-radius:5px;
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    
+}
+
+#pied {
+    background-color: rgb(35, 35, 35);
+    color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: space-between;
+    margin-right: -15px;
+}
+
+#reseau{
+    font-family: 'Megan_June';
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    letter-spacing: 10px;
+    filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%);
+    -webkit-filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%);
+}
+
+address{
+    font-style: normal;
+    font-family: 'Megan_June';
+    margin-left: 40px;
+    font-size: 24px;
+}
+#pied h3 {
+    font-size: 36px;
+    font-family: 'Megan_June';
+    margin-left: 40px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.copyright{
+    text-align: right;
+    margin-top: 60px;
+    margin-right: 40px;
+    font-family: 'Megan_June';
+    font-size: 24px;
+
+}
+.imagedeco{
+    margin-bottom: -5px;
+}
+
+@media screen and (max-width:576px) {
+    *{
+        margin: auto;
+    }
+    .arbre{
+        flex-wrap: wrap;
+    }
+    .lorem-arbre{
+        justify-content: space-between;
+    }
+}
